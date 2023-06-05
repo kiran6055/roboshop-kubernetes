@@ -1,3 +1,4 @@
+source /parameter-store/params
 mkdir /code
 cd /code
 git clone https://github.com/kiran6055/${COMPONENT}
