@@ -17,7 +17,7 @@ if [ $SCHEMA_TYPE == "mongodb" ]; then
 
 
 elif [ $SCHEMA_TYPE == "mysql" ]; then
-  mysql -u${MYSQL_USER} -p${MYSQL_PASS} </code/schema/${COMPONENT}.sql
+  mysql -h ${DB_HOST}-u${DB_USER} -p${DB_PASS} </code/schema/${COMPONENT}.sql
 fi
 
 # ${COMPONENT} is getting error then try $COMPONENT
