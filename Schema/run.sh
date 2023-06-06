@@ -17,5 +17,5 @@ if [ $SCHEMA_TYPE == "mongodb" ]; then
 
 
 elif [ $SCHEMA_TYPE == "mysql" ]; then
-  echo
+  mysql -u${MYSQL_USER} -p${MYSQL_PASS} </code/schema/${COMPONENT}.sql
 fi
