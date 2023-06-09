@@ -7,3 +7,4 @@ for param  in 'cat /tmp/names'; do
  KEY=$(echo $param | awk -F . '{print $NF}')
  echo export $KEY=\"$VALUE\" >>/parameter-store/params
 done
+
