@@ -1,7 +1,7 @@
 source /parameter-store/params
 mkdir /code
 cd /code
-git clone https://github.com/kiran6055/${COMPONENT}
+git clone https://github.com/kiran6055/$COMPONENT .
 
 # here is ${COMPONENT} is not working then try with out curly brases
 
